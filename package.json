@@ -1,0 +1,30 @@
+{
+    "name": "Crafty3D",
+    "version": "0.1",
+    "title": "Crafty 3D Component",
+    "author": {
+        "name": "Doc Labyrinth",
+        "url": "http://github.com/DocLabyrinth/Crafty-3D-Component/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://www.opensource.org/licenses/mit-license.php"
+        },
+        {
+            "type": "GPL",
+            "url": "http://www.opensource.org/licenses/gpl-license.php"
+        }
+    ],
+    "description": "A component to add 3D support to Crafty, using Three.js and the tQuery Loop class to handle rendering.",
+    "keywords": [
+        "framework",
+        "javascript",
+        "3D"
+    ],
+    "jsfiddle" : "disable", 
+    "homepage": "https://github.com/DocLabyrinth/Crafty-3D-Component",
+    "files": [
+        "3D.js"
+    ]
+}
