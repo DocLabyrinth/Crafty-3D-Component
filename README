@@ -1,0 +1,9 @@
+A Crafty component which uses Three.js (https://github.com/mrdoob/three.js) for 3D rendering and the Loop class from tQuery (https://github.com/jeromeetienne/tquery). The code is currently functional but a little rough around the edges. The code is in urgent need of documentation, which I plan to upload as soon as I get a chance. A loader for 3D models is included with a similar API to Crafty's own loader. Currently only .json format models are supported.
+
+Crafty.THREE.init sets up the 3D environment and starts the rendering loop, it is configured by passing an object specifying options. A few keys to note:
+
+* rayEnabled (boolean): if true then mouse picking using THREE.Ray will be enabled
+* rayConstant (boolean): if true then the ray will be cast each frame (used for mouseover/mouseout). This may be slow with a lot of objects on screen, I am planning to add options to set an interval instead of casting every frame.
+* screenNoContextMenu (boolean): if true then the context menu event is prevented from firing when the user right-clicks on the canvas element
+
+Better documentation, unit tests and a much more extensive example will follow soon.
