@@ -3,7 +3,7 @@ window.onload = function() {
 	Crafty.THREE.init();
 	Crafty.THREE.rayEnabled = true;
 	Crafty.THREE.camera.position.set(0, 300, 950);
-	Crafty.THREE.renderer.setClearColorHex(0xFFFFFF);
+	Crafty.THREE.renderer.setClearColor(0xFFFFFF);
 
 	// add lights so the objects in the scene can be seen
 	var ambientLight = new THREE.AmbientLight(0xdddddd);
